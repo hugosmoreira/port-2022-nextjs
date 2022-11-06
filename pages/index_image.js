@@ -1,11 +1,14 @@
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
-const Index = () => {
+const IndexImage = () => {
   return (
     <Layout>
-      <div className="section started personal" id="section-started">
+      <div className="section started" id="section-started">
         {/* background */}
-        <div className="video-bg">
+        <div
+          className="video-bg"
+          style={{ backgroundImage: "url(images/started_image_p.jpg)" }}
+        >
           <div className="video-bg-mask" />
           <div className="video-bg-texture" id="grained_container" />
         </div>
@@ -13,14 +16,10 @@ const Index = () => {
         <div className="centrize full-width">
           <div className="vertical-center">
             <div className="started-content">
-              <div
-                className="logo"
-                style={{ backgroundImage: "url(images/man.jpg)" }}
-              />
               <h1 className="h-title">
-                Hello, I’m <strong>Hugo Moreira</strong>, Front-end Developer and{" "}
+                Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and{" "}
                 <br />
-                Data Analyst Based in Portland Oregon.
+                Front-end Developer Based in San Francisco.
               </h1>
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
@@ -31,4 +30,4 @@ const Index = () => {
     </Layout>
   );
 };
-export default Index;
+export default IndexImage;

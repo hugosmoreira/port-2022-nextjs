@@ -1,6 +1,6 @@
 import TypingAnimation from "../src/components/TypingAnimation";
 import Layout from "../src/layout/Layout";
-const Index = () => {
+const IndexPersonal = () => {
   return (
     <Layout>
       <div className="section started personal" id="section-started">
@@ -18,9 +18,9 @@ const Index = () => {
                 style={{ backgroundImage: "url(images/man.jpg)" }}
               />
               <h1 className="h-title">
-                Hello, I’m <strong>Hugo Moreira</strong>, Front-end Developer and{" "}
+                Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and{" "}
                 <br />
-                Data Analyst Based in Portland Oregon.
+                Front-end Developer Based in San Francisco.
               </h1>
               <TypingAnimation extraClassName={"typed-subtitle"} />
               <span className="typed-subtitle" />
@@ -31,4 +31,4 @@ const Index = () => {
     </Layout>
   );
 };
-export default Index;
+export default IndexPersonal;
