@@ -13,7 +13,7 @@ const Interests = () => {
               <div className="icon">
                 <span className="fas fa-baseball-ball" />
               </div>
-              <div className="name">Basketball</div>
+              <div className="name">Brazilian Jiu-Jitsu</div>
               <div className="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </div>
@@ -24,7 +24,7 @@ const Interests = () => {
               <div className="icon">
                 <span className="fas fa-campground" />
               </div>
-              <div className="name">Camping</div>
+              <div className="name">Guitar</div>
               <div className="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </div>
@@ -35,7 +35,7 @@ const Interests = () => {
               <div className="icon">
                 <span className="fas fa-chess-knight" />
               </div>
-              <div className="name">Chess</div>
+              <div className="name">Dota 2</div>
               <div className="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </div>
@@ -46,7 +46,7 @@ const Interests = () => {
               <div className="icon">
                 <span className="fas fa-headphones" />
               </div>
-              <div className="name">Music</div>
+              <div className="name">Design & Video Editing</div>
               <div className="text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </div>

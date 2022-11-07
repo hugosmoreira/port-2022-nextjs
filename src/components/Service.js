@@ -25,10 +25,9 @@ const Service = () => {
               <div className="icon">
                 <span className="fas fa-music" />
               </div>
-              <div className="name">Music Writing</div>
+              <div className="name">Mobile App Development</div>
               <div className="text">
-                Music copying, writing, creating, transcription, arranging and
-                services.
+                We develop mobile apps for iOS and Android using React Js
               </div>
             </div>
           </div>
@@ -37,10 +36,9 @@ const Service = () => {
               <div className="icon">
                 <span className="fas fa-ad" />
               </div>
-              <div className="name">Advetising</div>
+              <div className="name">Custom Software Development</div>
               <div className="text">
-                Advertising services include television, radio, print, mail, and
-                web apps.
+                We follow your CD CI to make sure we have everything in place
               </div>
             </div>
           </div>
@@ -56,18 +54,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="service-col">
-            <div className="service-item content-box">
-              <div className="icon">
-                <span className="fas fa-camera" />
-              </div>
-              <div className="name">Photography</div>
-              <div className="text">
-                Our in-house photography services team made up of professional
-                photographers.
-              </div>
-            </div>
-          </div>
+          
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
